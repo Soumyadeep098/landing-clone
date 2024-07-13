@@ -45,10 +45,11 @@ header nav .first-section ul{
 
 .middle-section{
     display: flex;
-    width: 40%;
+    width: 92%;
     height: 13vh;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    margin-right: 7px;
 
     & .logo-text{
         font-weight: bolder;
@@ -127,6 +128,7 @@ header nav .first-section ul{
 .icons i:hover{
     background-color: #e1dcdc;
 }
+
 
 
 
