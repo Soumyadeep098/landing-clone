@@ -1,31 +1,31 @@
-@media screen and (min-width : 768px) and (max-width : 1240px){
+@media  screen and (min-width : 1003px) and (max-width : 1290px) {
+    
+    .last-section{
+        width : 60% ;
+    }
 
     .middle-section{
-      width: 20%;
+        margin-left: -400px;
     }
-
     
-    
-    .hidden {
-        display: none;
-        height: 10vh;
-    }
 }
 
-@media screen and (min-width : 300px) and (max-width : 768px){
+@media screen and (min-width : 300px) and (max-width : 1003px){
+  
+    .hidden{
+        display: none;
+    }
 
-    header{
-        width: 30%;
+    .last-section{
+        width : 100% ;
+        justify-content: end;
     }
 
     .middle-section{
-      width: 30%;
+        width: 100%;
+        justify-content: start;
+        margin-left: 10px;
     }
 
-    
-    
-    .hidden {
-        display: none;
-        height: 10vh;
-    }
+
 }
